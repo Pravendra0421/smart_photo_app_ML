@@ -1,0 +1,42 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyd
+*.pyo
+
+# Virtual Environment
+# Aapki image mein iska naam 'venv' hai, isliye hum use ignore kar rahe hain.
+# If you use a different name (like .venv), change this accordingly.
+venv/
+
+# Dependencies / Installed packages
+# Agar aap pip ya anaconda use karte hain, toh yeh folders ignore karna safe hai.
+/lib
+/local
+/bin
+
+# Environment variables
+# Sensitive information jaise API keys ya database credentials ismein hote hain.
+.env
+.flaskenv
+
+# Testing / Debugging
+*.log
+*.sqlite3
+/test/
+
+# Machine Learning & Data Files
+# ML projects mein bade models aur data files ko ignore karna zaroori hai.
+# Agar aapke paas large data ya model files hain, toh unhe yahan add karein.
+# Example:
+# *.pkl
+# *.csv
+# *.hdf5
+# /data/
+# /models/
+
+# Editor/IDE-specific files
+# Visual Studio Code
+.vscode/
+# PyCharm
+.idea/
